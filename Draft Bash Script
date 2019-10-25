@@ -1,0 +1,5 @@
+cd POC_Contents
+cd Organise
+cd Tropy_Input	
+exiftool ChanguField *
+
