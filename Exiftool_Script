@@ -1,0 +1,5 @@
+cd POC_Contents
+cd tropy_input*
+exiftool -Creator="Sophie Wallace" *.jpeg
+cp ~/POC_Contents/tropy_input*/*.jpeg ~/POC_Contents/tropy-files
+

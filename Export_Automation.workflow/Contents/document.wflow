@@ -427,7 +427,7 @@
 					<key>replaceExisting</key>
 					<false/>
 					<key>toDirectory</key>
-					<string>~/POC_Contents/Organise</string>
+					<string>~/POC_Contents</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.MoveFiles</string>
@@ -1133,53 +1133,47 @@
 					YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25Z
 					JGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGG
 					oF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290
-					gAGvEBoLDBMYICorLTQ4PT5BRUlOVVZXW15k
-					ZWpucFUkbnVsbNMNDg8QERJfEBdOU0NvbXBv
-					dW5kUHJlZGljYXRlVHlwZV8QD05TU3VicHJl
-					ZGljYXRlc1YkY2xhc3MQAYACgBnSFA8VF1pO
-					Uy5vYmplY3RzoRaAA4AY1A8ZGhscHR4fXxAR
-					TlNSaWdodEV4cHJlc3Npb25fEBBOU0xlZnRF
-					eHByZXNzaW9uXxATTlNQcmVkaWNhdGVPcGVy
-					YXRvcoAXgA6ABIAU1SEiIyQPJSYnKClZTlNP
-					cGVyYW5kXk5TU2VsZWN0b3JOYW1lXxAQTlNF
-					eHByZXNzaW9uVHlwZVtOU0FyZ3VtZW50c4AG
-					gAUQA4AIgA1cdmFsdWVGb3JLZXk60iMPECyA
-					B9IuLzAxWiRjbGFzc25hbWVYJGNsYXNzZXNf
-					EBBOU1NlbGZFeHByZXNzaW9uozAyM1xOU0V4
-					cHJlc3Npb25YTlNPYmplY3TSFA81N6E2gAmA
-					DNMPIzk6OzxZTlNLZXlQYXRogAsQCoAKXG1v
-					ZGlmaWVkRGF0ZdIuLz9AXxAcTlNLZXlQYXRo
-					U3BlY2lmaWVyRXhwcmVzc2lvbqM/MjPSLi9C
-					Q15OU011dGFibGVBcnJheaNCRDNXTlNBcnJh
-					edIuL0ZHXxATTlNLZXlQYXRoRXhwcmVzc2lv
-					bqRGSDIzXxAUTlNGdW5jdGlvbkV4cHJlc3Np
-					b27TSiMPS0xNXxAPTlNDb25zdGFudFZhbHVl
-					gA8QAIAT008UD1BSVFdOUy5rZXlzoVGAEKFT
-					gBGAEl1wcmVkaWNhdGVUeXBlEAHSLi9YWV8Q
-					E05TTXV0YWJsZURpY3Rpb25hcnmjWFozXE5T
-					RGljdGlvbmFyedIuL1xdXxAZTlNDb25zdGFu
-					dFZhbHVlRXhwcmVzc2lvbqNcMjPUIl8PYGFM
-					YmNaTlNNb2RpZmllcl5OU09wZXJhdG9yVHlw
-					ZYAVgBYQC1hpc1RvZGF5OtIuL2ZnXxAZTlND
-					dXN0b21QcmVkaWNhdGVPcGVyYXRvcqNoaTNf
-					EBlOU0N1c3RvbVByZWRpY2F0ZU9wZXJhdG9y
-					XxATTlNQcmVkaWNhdGVPcGVyYXRvctIuL2ts
-					XxAVTlNDb21wYXJpc29uUHJlZGljYXRlo2tt
-					M1tOU1ByZWRpY2F0ZdIuL0RvokQz0i4vcXJf
-					EBNOU0NvbXBvdW5kUHJlZGljYXRlo3FtMwAI
-					ABEAGgAkACkAMgA3AEkATABRAFMAcAB2AH0A
-					lwCpALAAsgC0ALYAuwDGAMgAygDMANUA6QD8
-					ARIBFAEWARgBGgElAS8BPgFRAV0BXwFhAWMB
-					ZQFnAXQBeQF7AYABiwGUAacBqwG4AcEBxgHI
-					AcoBzAHTAd0B3wHhAeMB8AH1AhQCGAIdAiwC
-					MAI4Aj0CUwJYAm8CdgKIAooCjAKOApUCnQKf
-					AqECowKlAqcCtQK3ArwC0gLWAuMC6AMEAwgD
-					EQMcAysDLQMvAzEDOgM/A1sDXwN7A5EDlgOu
-					A7IDvgPDA8YDywPhAAAAAAAAAgEAAAAAAAAA
-					cwAAAAAAAAAAAAAAAAAAA+U=
+					gAGvEBYLDBMYICorLTQ4PT5BRUlOT1JYXGBi
+					VSRudWxs0w0ODxAREl8QF05TQ29tcG91bmRQ
+					cmVkaWNhdGVUeXBlXxAPTlNTdWJwcmVkaWNh
+					dGVzViRjbGFzcxABgAKAFdIUDxUXWk5TLm9i
+					amVjdHOhFoADgBTUDxkaGxwdHh9fEBFOU1Jp
+					Z2h0RXhwcmVzc2lvbl8QEE5TTGVmdEV4cHJl
+					c3Npb25fEBNOU1ByZWRpY2F0ZU9wZXJhdG9y
+					gBOADoAEgBHVISIjJA8lJicoKVlOU09wZXJh
+					bmReTlNTZWxlY3Rvck5hbWVfEBBOU0V4cHJl
+					c3Npb25UeXBlW05TQXJndW1lbnRzgAaABRAD
+					gAiADVx2YWx1ZUZvcktleTrSIw8QLIAH0i4v
+					MDFaJGNsYXNzbmFtZVgkY2xhc3Nlc18QEE5T
+					U2VsZkV4cHJlc3Npb26jMDIzXE5TRXhwcmVz
+					c2lvblhOU09iamVjdNIUDzU3oTaACYAM0w8j
+					OTo7PFlOU0tleVBhdGiACxAKgApaYW55Q29u
+					dGVudNIuLz9AXxAcTlNLZXlQYXRoU3BlY2lm
+					aWVyRXhwcmVzc2lvbqM/MjPSLi9CQ15OU011
+					dGFibGVBcnJheaNCRDNXTlNBcnJhedIuL0ZH
+					XxATTlNLZXlQYXRoRXhwcmVzc2lvbqRGSDIz
+					XxAUTlNGdW5jdGlvbkV4cHJlc3Npb27TSiMP
+					S0xNXxAPTlNDb25zdGFudFZhbHVlgA8QAIAQ
+					UNIuL1BRXxAZTlNDb25zdGFudFZhbHVlRXhw
+					cmVzc2lvbqNQMjPUD1NUVVZMJ1daTlNNb2Rp
+					ZmllcldOU0ZsYWdzXk5TT3BlcmF0b3JUeXBl
+					gBIQY9IuL1laXxAVTlNJblByZWRpY2F0ZU9w
+					ZXJhdG9yo1lbM18QE05TUHJlZGljYXRlT3Bl
+					cmF0b3LSLi9dXl8QFU5TQ29tcGFyaXNvblBy
+					ZWRpY2F0ZaNdXzNbTlNQcmVkaWNhdGXSLi9E
+					YaJEM9IuL2NkXxATTlNDb21wb3VuZFByZWRp
+					Y2F0ZaNjXzMACAARABoAJAApADIANwBJAEwA
+					UQBTAGwAcgB5AJMApQCsAK4AsACyALcAwgDE
+					AMYAyADRAOUA+AEOARABEgEUARYBIQErAToB
+					TQFZAVsBXQFfAWEBYwFwAXUBdwF8AYcBkAGj
+					AacBtAG9AcIBxAHGAcgBzwHZAdsB3QHfAeoB
+					7wIOAhICFwImAioCMgI3Ak0CUgJpAnACggKE
+					AoYCiAKJAo4CqgKuArcCwgLKAtkC2wLdAuIC
+					+gL+AxQDGQMxAzUDQQNGA0kDTgNkAAAAAAAA
+					AgEAAAAAAAAAZQAAAAAAAAAAAAAAAAAAA2g=
 					</data>
 					<key>searchPath</key>
-					<string>~/POC_Contents/Organise</string>
+					<string>~/POC_Contents</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.FindFinderItems2</string>
@@ -1196,13 +1190,13 @@
 				<key>Class Name</key>
 				<string>Find_Finder_Items_2</string>
 				<key>InputUUID</key>
-				<string>E85E7B2A-703F-4CA6-86C2-47790DD1C2C4</string>
+				<string>2B8BF47C-D080-48B4-9BB4-59DB2DF49B38</string>
 				<key>Keywords</key>
 				<array/>
 				<key>OutputUUID</key>
-				<string>5A8D77F6-349E-4076-A523-EA6160529FCC</string>
+				<string>7DE79F4D-7DA9-43F9-9C25-F387DFA70B19</string>
 				<key>UUID</key>
-				<string>807E8893-569D-4CDE-83BB-22D05F0285E7</string>
+				<string>6E1FA127-8D5D-45A7-B58A-245144EC0104</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Finder</string>
@@ -1250,6 +1244,8 @@
 						<string>2</string>
 					</dict>
 				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
@@ -1259,75 +1255,6 @@
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
-		</dict>
-		<dict>
-			<key>action</key>
-			<dict>
-				<key>AMAccepts</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Optional</key>
-					<true/>
-					<key>Types</key>
-					<array>
-						<string>com.apple.cocoa.path</string>
-					</array>
-				</dict>
-				<key>AMActionVersion</key>
-				<string>2.1.1</string>
-				<key>AMApplication</key>
-				<array>
-					<string>Finder</string>
-				</array>
-				<key>AMParameterProperties</key>
-				<dict/>
-				<key>AMProvides</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Types</key>
-					<array>
-						<string>com.apple.cocoa.path</string>
-					</array>
-				</dict>
-				<key>AMRequiredResources</key>
-				<array/>
-				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/Get Selected Finder Items 2.action</string>
-				<key>ActionName</key>
-				<string>Get Selected Finder Items</string>
-				<key>ActionParameters</key>
-				<dict/>
-				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.GetSelectedFinderItems2</string>
-				<key>CFBundleVersion</key>
-				<string>2.1.1</string>
-				<key>CanShowSelectedItemsWhenRun</key>
-				<false/>
-				<key>CanShowWhenRun</key>
-				<true/>
-				<key>Category</key>
-				<array>
-					<string>AMCategoryFilesAndFolders</string>
-				</array>
-				<key>Class Name</key>
-				<string>AMGetSelectedFinderItemsAction</string>
-				<key>InputUUID</key>
-				<string>642FE247-43E3-4220-B3C4-546BF4704F11</string>
-				<key>Keywords</key>
-				<array/>
-				<key>OutputUUID</key>
-				<string>01ACFC6F-314C-4158-80EB-21255F080B65</string>
-				<key>UUID</key>
-				<string>34C7B8AF-7DBB-4477-99E9-626FA3EBC917</string>
-				<key>UnlocalizedApplications</key>
-				<array>
-					<string>Finder</string>
-				</array>
-				<key>arguments</key>
-				<dict/>
-			</dict>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -1481,7 +1408,7 @@
 				<key>Class Name</key>
 				<string>AMRenameFinderItemsAction</string>
 				<key>InputUUID</key>
-				<string>DD2F6FFE-D17D-4C6F-B3D8-82C207E95311</string>
+				<string>59160D49-5F95-492C-BB95-FD947CC11D48</string>
 				<key>Keywords</key>
 				<array>
 					<string>Name</string>
@@ -1502,9 +1429,9 @@
 					<string>Sequential</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>2CF39F5F-54C2-4134-8E31-C6D140976D5D</string>
+				<string>6B4B3A5A-717C-4607-A1BD-010CC9F64786</string>
 				<key>UUID</key>
-				<string>677ED174-3242-4A10-AF5D-0B4F785561AC</string>
+				<string>FB8B3B0C-6C6C-406C-B505-B8EC0926130F</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Finder</string>
@@ -1798,10 +1725,12 @@
 						<string>9</string>
 					</dict>
 				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>435.500000:926.000000</string>
+				<string>435.500000:861.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Rename Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -1811,54 +1740,47 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>17D3F7B3-3436-485D-AC31-8FA799A0C277</key>
-		<dict>
-			<key>from</key>
-			<string>2098608F-6FD1-4BBB-B27E-74A4619A3A85 - 2098608F-6FD1-4BBB-B27E-74A4619A3A85</string>
-			<key>to</key>
-			<string>2E4BE5DE-86B8-416E-88E2-6E172D6D2562 - 2E4BE5DE-86B8-416E-88E2-6E172D6D2562</string>
-		</dict>
-		<key>1D3BBC2F-A963-4C88-B635-70100DA326DA</key>
-		<dict>
-			<key>from</key>
-			<string>2E4BE5DE-86B8-416E-88E2-6E172D6D2562 - 2E4BE5DE-86B8-416E-88E2-6E172D6D2562</string>
-			<key>to</key>
-			<string>DC8446C1-D4B2-4222-92FE-4B1F3C0EE5AB - DC8446C1-D4B2-4222-92FE-4B1F3C0EE5AB</string>
-		</dict>
-		<key>30D89FB6-4458-4B45-BD5F-78AC6DE57C17</key>
-		<dict>
-			<key>from</key>
-			<string>807E8893-569D-4CDE-83BB-22D05F0285E7 - 807E8893-569D-4CDE-83BB-22D05F0285E7</string>
-			<key>to</key>
-			<string>34C7B8AF-7DBB-4477-99E9-626FA3EBC917 - 34C7B8AF-7DBB-4477-99E9-626FA3EBC917</string>
-		</dict>
-		<key>503E5097-69CD-49F4-B6A7-335530D446DA</key>
-		<dict>
-			<key>from</key>
-			<string>DC8446C1-D4B2-4222-92FE-4B1F3C0EE5AB - DC8446C1-D4B2-4222-92FE-4B1F3C0EE5AB</string>
-			<key>to</key>
-			<string>E6EF69B1-43DE-4806-80AA-4E2790450E33 - E6EF69B1-43DE-4806-80AA-4E2790450E33</string>
-		</dict>
-		<key>64B18E06-6153-4CE0-BF90-7C647F115682</key>
+		<key>687D65A5-DE48-4A87-AA43-69FB8A39A4E9</key>
 		<dict>
 			<key>from</key>
 			<string>E6EF69B1-43DE-4806-80AA-4E2790450E33 - E6EF69B1-43DE-4806-80AA-4E2790450E33</string>
 			<key>to</key>
-			<string>807E8893-569D-4CDE-83BB-22D05F0285E7 - 807E8893-569D-4CDE-83BB-22D05F0285E7</string>
+			<string>6E1FA127-8D5D-45A7-B58A-245144EC0104 - 6E1FA127-8D5D-45A7-B58A-245144EC0104</string>
 		</dict>
-		<key>7AC4F05B-CBF5-4FE7-BA56-EEB73B78C01D</key>
+		<key>7EB0235A-A484-4A80-B2BA-EB77C4802ADE</key>
 		<dict>
 			<key>from</key>
 			<string>CB4CDBC9-27D9-4EAB-997E-C0D7FFC0DBA6 - CB4CDBC9-27D9-4EAB-997E-C0D7FFC0DBA6</string>
 			<key>to</key>
 			<string>2098608F-6FD1-4BBB-B27E-74A4619A3A85 - 2098608F-6FD1-4BBB-B27E-74A4619A3A85</string>
 		</dict>
-		<key>CC19983B-5D0F-4D06-BFEC-CDDB8FC7E762</key>
+		<key>B4447C2D-D9CB-4FF3-AAF8-EBD4C461F371</key>
 		<dict>
 			<key>from</key>
-			<string>34C7B8AF-7DBB-4477-99E9-626FA3EBC917 - 34C7B8AF-7DBB-4477-99E9-626FA3EBC917</string>
+			<string>2098608F-6FD1-4BBB-B27E-74A4619A3A85 - 2098608F-6FD1-4BBB-B27E-74A4619A3A85</string>
 			<key>to</key>
-			<string>677ED174-3242-4A10-AF5D-0B4F785561AC - 677ED174-3242-4A10-AF5D-0B4F785561AC</string>
+			<string>2E4BE5DE-86B8-416E-88E2-6E172D6D2562 - 2E4BE5DE-86B8-416E-88E2-6E172D6D2562</string>
+		</dict>
+		<key>D00A7E86-5D66-4A9E-AD37-35CEC9261514</key>
+		<dict>
+			<key>from</key>
+			<string>DC8446C1-D4B2-4222-92FE-4B1F3C0EE5AB - DC8446C1-D4B2-4222-92FE-4B1F3C0EE5AB</string>
+			<key>to</key>
+			<string>E6EF69B1-43DE-4806-80AA-4E2790450E33 - E6EF69B1-43DE-4806-80AA-4E2790450E33</string>
+		</dict>
+		<key>DB0760A9-776F-47DE-BCE7-4AE59F954258</key>
+		<dict>
+			<key>from</key>
+			<string>2E4BE5DE-86B8-416E-88E2-6E172D6D2562 - 2E4BE5DE-86B8-416E-88E2-6E172D6D2562</string>
+			<key>to</key>
+			<string>DC8446C1-D4B2-4222-92FE-4B1F3C0EE5AB - DC8446C1-D4B2-4222-92FE-4B1F3C0EE5AB</string>
+		</dict>
+		<key>EE9246AC-4B2D-425A-AC66-B3A15CD607C6</key>
+		<dict>
+			<key>from</key>
+			<string>6E1FA127-8D5D-45A7-B58A-245144EC0104 - 6E1FA127-8D5D-45A7-B58A-245144EC0104</string>
+			<key>to</key>
+			<string>FB8B3B0C-6C6C-406C-B505-B8EC0926130F - FB8B3B0C-6C6C-406C-B505-B8EC0926130F</string>
 		</dict>
 	</dict>
 	<key>variables</key>
