@@ -14,5 +14,8 @@ The application Automator can be viewed in more detail in the [Automator User Gu
 The application Tropy can be downloaded from [Tropy.org](https://tropy.org/)
 
 # Installation:
+Download Tropy application from link above.
+Download zip file and place into home directory.
+
 
 # Issues:
