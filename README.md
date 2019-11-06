@@ -27,7 +27,8 @@ The application Automator can be viewed in more detail in the [Automator User Gu
 
 
 * Download Tropy and Duplicati applications from link above.
-* Clone this repository to your computer using github desktop. It is important that the file Exiftool_Script is in folder ~/Documents/GitHub/SophieWallace_POC_Contents/
+* Clone this repository to your computer using github desktop. 
+* It is important that the file Exiftool_Script is in folder ~/Documents/GitHub/SophieWallace_POC_Contents/
 * Create folder named "Export" in default Mac Photos application
 * Move the images from the repository into the newly created "Export" folder in Mac photos
 
