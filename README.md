@@ -27,7 +27,7 @@ The application Automator can be viewed in more detail in the [Automator User Gu
 
 
 * Download Tropy and Duplicati applications from link above.
-* Clone this repository to your computer using github desktop. It is important that the file Exiftool_Script is in folder asdfasdf
+* Clone this repository to your computer using github desktop. It is important that the file Exiftool_Script is in folder ~/Documents/GitHub/SophieWallace_POC_Contents/
 * Create folder named "Export" in default Mac Photos application
 * Move the images from the repository into the newly created "Export" folder in Mac photos
 
@@ -39,16 +39,16 @@ The application Automator can be viewed in more detail in the [Automator User Gu
 * Promp for writing location should appear
 * Write location metadata for the photos, in this case "Changu Narayan"
 * Tropy interface appears and tropy_input images appear in finder
-* Drag photos from tropy_input folder into Tropy 
+* Drag photos from tropy_input folder into Tropy
 * Photos should appear in Tropy with metadata including creator, original date and time and location under 'type' column.
 
 
 # Issues:
 
 **Automator**
-* Utilising key commands such as "command A" crashed the application. 
+* Utilising key commands such as "command A" crashed the application.
 * Actions such as renaming folders, work haphazardly.
-* Actions are extremely limited 
+* Actions are extremely limited
 * Actions focus predominantely on Mac applications
 * Only available on macOS Catalina.
 
