@@ -11,11 +11,12 @@ This needs the application Automator. This is a default application in macOS Cat
 
 The application Automator can be viewed in more detail in the [Automator User Guide](https://support.apple.com/en-au/guide/automator/welcome/mac)
 
-The application Tropy can be downloaded from [Tropy.org](https://tropy.org/)
+The application Tropy can be downloaded from [Tropy.org](https://tropy.org/download/mac)
 
 # Installation:
+
+
 Download Tropy application from link above.
-Download zip file and place into home directory.
 
 
 # Issues:
