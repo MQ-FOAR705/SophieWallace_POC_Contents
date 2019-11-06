@@ -1,5 +1,9 @@
-cd POC_Contents
-cd tropy_input*
-exiftool -Creator="Sophie Wallace" *.jpeg
-cp ~/POC_Contents/tropy_input*/*.jpeg ~/POC_Contents/tropy-files
+#cd ~/POC_Contents
+
+#BRIAN ADDED
+#tropy_dir=$(find ~/POC_Contents/ -name "tropy_input*" | head 1)
+ 
+#cd "$tropy_dir"
+
+/usr/local/bin/exiftool -overwrite_original -Creator="Sophie Wallace" ~/POC_Contents/tropy_input*/*.jpeg
 
