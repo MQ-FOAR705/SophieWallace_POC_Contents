@@ -34,9 +34,21 @@ The application Automator can be viewed in more detail in the [Automator User Gu
 # Testing The Workflow
 
 * Run automator
-* When prompt appears, write location metadata for the photos. In this case *"Changu Narayan"
+* Promp for writing location should appear
+* Write location metadata for the photos, in this case "Changu Narayan"
+* Tropy interface appears and tropy_input images appear in finder
 * Drag photos from tropy_input folder into Tropy 
+* Photos should appear in Tropy with metadata including creator, original date and time and location under 'type' column.
 
 # Issues:
 
-* Both the application Tropy and Automator encountered many issues. 
+**Automator**
+* Utilising key commands such as "command A" crashed the application. 
+* Actions such as renaming folders, work haphazardly.
+* Actions are extremely limited 
+* Actions focus predominantely on Mac applications
+
+**Tropy**
+* Tropy does not work with the command line
+* Tropy does not accept diverse data
+* Tropy does not work with Mac default photos application
