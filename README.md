@@ -1,3 +1,10 @@
 # SophieWallace_POC_Contents
-This repository is for the contents of the POC to create the automation. 
-This repository will eventually include instructions, automator workflow, shell script and necessary folder contents.
+Background:
+This repository contains the Proof of Concept (POC) Implementation task for FOAR705. This POC contains a workflow to export photos from an iPhone into Tropy with additional metadata. This aims to demonstrate a more streamlined process for qualitative researchers in the field who want their photo data to be more organised, managed and stored efficiently. 
+Outline: 
+
+Requirements:
+
+Installation:
+
+Issues:
