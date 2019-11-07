@@ -1,7 +1,7 @@
 #cd ~/POC_Contents
 
 #BRIAN ADDED
-#tropy_dir=$(find ~/POC_Contents/ -name "tropy_input*" | head 1)
+#tropy_dir=$(find ~/Desktop/ -name "tropy_input*" | head 1)
  
 #cd "$tropy_dir"
 
