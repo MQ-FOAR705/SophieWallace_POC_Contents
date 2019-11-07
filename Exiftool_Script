@@ -1,9 +1,10 @@
 #cd ~/POC_Contents
 
 #BRIAN ADDED
-#tropy_dir=$(find ~/POC_Contents/ -name "tropy_input*" | head 1)
+#tropy_dir=$(find ~/Desktop/ -name "tropy_input*" | head 1)
  
 #cd "$tropy_dir"
 
-/usr/local/bin/exiftool -overwrite_original -Creator="Sophie Wallace" ~/POC_Contents/tropy_input*/*.jpeg
+/usr/local/bin/exiftool -overwrite_original -Creator="Sophie Wallace" "-FileName<CreateDate" -d Nepal_%Y%m%d_%H%M%S%%-c.%%e "-Date<CreateDate" -Type="$1" ~/Desktop/tropy_input*/*.j*g
+
 
