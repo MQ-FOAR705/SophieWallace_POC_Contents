@@ -5,5 +5,6 @@
  
 #cd "$tropy_dir"
 
-/usr/local/bin/exiftool -overwrite_original -Creator="Sophie Wallace" ~/POC_Contents/tropy_input*/*.jpeg
+/usr/local/bin/exiftool -overwrite_original -Creator="Sophie Wallace" "-FileName<CreateDate" -d Nepal_%Y%m%d_%H%M%S%%-c.%%e "-Date<CreateDate" -Type="$1" ~/Desktop/tropy_input*/*.j*g
+
 
