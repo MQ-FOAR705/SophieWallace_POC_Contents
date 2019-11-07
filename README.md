@@ -72,8 +72,7 @@ This POC technology deployment has limitations. Instructions for using these app
 
 This POC technology deployment is only available on macOS catalina. This is a significant limitation for users with a different operating system. Due to the scope of this POC, solving this pain was unattainable. 
 
-This POC technology deployment has specific limitations with Automator and Tropy. These issues are outlined below.
-
+This POC technology deployment has specific limitations with Automator and Tropy. Additionally, there are some anticipated errors that occur in this demonstration. Limitations and errors below:
 
 **Automator**
 * Utilising key commands such as "command A" crashed the application.
@@ -88,6 +87,13 @@ This POC technology deployment has specific limitations with Automator and Tropy
 * Tropy does not accept different data types
 * Tropy does not work with Mac default photos application
 
+**ExifTool**
+* After downloading, ExifTool may not open succesfully.
+* Open with terminal and then double click on the package.
+
+**Duplicati**
+* After downloading, Duplicati may not open successfully.
+* If this occurs, download Duplicati directly from this website [https://www.duplicati.com/download](https://www.duplicati.com/download)
 
 # Further Information:
 
