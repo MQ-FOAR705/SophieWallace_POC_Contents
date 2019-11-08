@@ -1,11 +1,10 @@
-# SophieWallace_POC_Contents
+# Proof of Concept Technology Deployment: Managing Qualitative Data in the Field: Images, Metadata and Secure Storage
 
 
 # Background:
 
 
-This repository contains the Proof of Concept (POC) Implementation task for FOAR705. This POC contains a Automator workflow to export photos from Mac's default photo application into the photo application Tropy, using ExifTool to embed additional metadata into the photos. Duplicati then securely backs the work on a scheduled timer. This aims to demonstrate a more streamlined process for qualitative researchers in the field who want their photographic data to be more organised, detailed, managed and stored efficiently.
-
+This repository contains the Proof of Concept (POC) Technology Deployment for FOAR705, 2019. This POC contains a Automator workflow to export photos from Mac's default photo application into the photo application Tropy, using ExifTool to embed additional metadata into the photos. Duplicati then securely backs the work on a scheduled timer. This aims to demonstrate a more streamlined process for qualitative researchers in the field who want their photographic data to be more organised, detailed, managed and stored efficiently. 
 
 # Outline:
 
@@ -41,38 +40,54 @@ The application Automator can be viewed in more detail in the [Automator User Gu
 
 The application Photos can be viewed in more detail in the [Mac Photos User Guide](https://support.apple.com/en-au/HT206186)
 
-
+Duplicati and Github Desktop require user accounts to access these tools. Sign in or create an account to continue with this POC demonstration. 
 
 # Installation:
 
 
 * Ensure you have met the requirements in the section above before proceeding.
-* Download Tropy, ExifTool, Duplicati and Github Deskstop from the links above.
+* Download and install Tropy, ExifTool, Duplicati and Github Desktop from the links above.
 * Clone this repository to your computer using Github Desktop. 
 * It is important that the file Exiftool_Script is in folder ~/Documents/GitHub/SophieWallace_POC_Contents/
-* Create a folder named "Export" in default Mac Photos application
-* Move the images from the repository into the newly created "Export" folder in Mac photos
-
+* Create a folder named "Export" in default Mac Photos application.
+* Move the images from the repository into the newly created "Export" folder in Mac Photos application.
+* Create daily scheduled backup in Duplicati for Tropy project and POC_Contents folder.
 
 
 # Testing The Workflow:
 
-* Open POC_Automation workflow
-* Run POC_Automation workflow
-* Prompt for writing location should appear
-* Write location metadata for the photos, in this case "Changu Narayan"
-* Tropy interface appears and tropy_input images appear in finder
-* Drag photos from tropy_input folder into Tropy
-* Photos should appear in Tropy with metadata including creator, original date and time and location under 'type' column.
+
+* Open POC_Automation workflow.
+* Run POC_Automation workflow.
+* Prompt for writing location should appear.
+* Write location metadata for the photos, in this case "Changu Narayan".
+* Tropy interface appears and tropy_input images appear in finder window.
+* Create Tropy project.
+* Drag photos from tropy_input folder into Tropy.
+
+
+# Results:
+
+
+* Exported images are now in a folder on the desktop named tropy_input, with the current date and time.
+* Images in the folder are now named Nepal, with the current date and time.
+* Once dragged into Tropy, images have 'creator' metadata named Sophie Wallace.
+* Once dragged into Tropy, images have 'date' metadata, with the original date and time of photo.
+* Once dragged into Tropy, images have aribitrary 'type' metadata written from the prompt asking for geo-location.
+
+
 
 
 # Limitations:
 
 This POC technology deployment has limitations. Instructions for using these applications to their full potential are not included in this package. These programs are wide-ranging and specific to each user. Therefore, instructions on the overall usage of these applications are too extensive to include. To mitigate this, I have provided links below in 'further information'. The Automator link for additional detail is above in requirements.
 
+In the initial scoping, elaboration and user stories for this POC, the tool described organised diverse data-sets. Due to time constraints and limited resources, this POC technology only works for image data. Despite this, most user stories have been accomplished.
+
 This POC technology deployment is only available on macOS catalina. This is a significant limitation for users with a different operating system. Due to the scope of this POC, solving this pain was unattainable. 
 
 This POC technology deployment has specific limitations with Automator and Tropy. Additionally, there are some anticipated errors that occur in this demonstration. Limitations and errors below:
+
 
 **Automator**
 * Utilising key commands such as "command A" crashed the application.
@@ -89,7 +104,8 @@ This POC technology deployment has specific limitations with Automator and Tropy
 
 **ExifTool**
 * After downloading, ExifTool may not open succesfully.
-* Open with terminal and then double click on the package.
+* Open with terminal and then double click on the package again.
+* If this fails, visit ExifTool link below for more information.
 
 **Duplicati**
 * After downloading, Duplicati may not open successfully.
