@@ -1,6 +1,16 @@
 
 # Managing Qualitative Data in the Field: Images, Metadata and Secure Storage
 
+# Table of Contents
+- [Background](#background)
+- [Outline](#outline)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Testing](#testing)
+- [Results](#results)
+- [Limitations](#limitations)
+- [Information](#information)
+
 
 # Background:
 
@@ -55,7 +65,7 @@ Duplicati and Github Desktop require user accounts to access these tools. Sign i
 * Create daily scheduled backup in Duplicati for Tropy project and POC_Contents folder.
 
 
-# Testing The Workflow:
+# Testing:
 
 
 * Open POC_Automation workflow.
@@ -112,7 +122,7 @@ This POC technology deployment has specific limitations with Automator and Tropy
 * After downloading, Duplicati may not open successfully.
 * If this occurs, download Duplicati directly from this website [https://www.duplicati.com/download](https://www.duplicati.com/download)
 
-# Further Information:
+# Information:
 
 For more information on Tropy visit [https://tropy.org/](https://tropy.org/) 
 
