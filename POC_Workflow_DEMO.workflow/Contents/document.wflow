@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>488</string>
+	<string>444.39</string>
 	<key>AMApplicationVersion</key>
-	<string>2.10</string>
+	<string>2.9</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -52,7 +52,7 @@
 				<key>AMRequiredResources</key>
 				<array/>
 				<key>ActionBundlePath</key>
-				<string>/System/Applications/Photos.app/Contents/Library/Automator/Get Album by Name.action</string>
+				<string>/Applications/Photos.app/Contents/Library/Automator/Get Album by Name.action</string>
 				<key>ActionName</key>
 				<string>Get Album by Name</string>
 				<key>ActionParameters</key>
@@ -61,6 +61,15 @@
 					<integer>0</integer>
 					<key>targetStringValue</key>
 					<string>Export</string>
+				</dict>
+				<key>ActionRuntimeParameters</key>
+				<dict>
+					<key>comparisonOperatorIndicator</key>
+					<integer>0</integer>
+					<key>targetStringValue</key>
+					<string>Export</string>
+					<key>temporary items path</key>
+					<string>/var/folders/7q/zdd3th6s0bg1vxhsbqymlw400000gn/T/F887C0FB-AF46-4274-B935-2F60A082CBD9/1/com.apple.Photos.Get-Album-by-Name</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Photos.Get-Album-by-Name</string>
@@ -91,9 +100,9 @@
 					<key>0</key>
 					<dict>
 						<key>default value</key>
-						<integer>0</integer>
+						<string></string>
 						<key>name</key>
-						<string>comparisonOperatorIndicator</string>
+						<string>targetStringValue</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -104,9 +113,9 @@
 					<key>1</key>
 					<dict>
 						<key>default value</key>
-						<string></string>
+						<integer>0</integer>
 						<key>name</key>
-						<string>targetStringValue</string>
+						<string>comparisonOperatorIndicator</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -118,9 +127,9 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>270.500000:126.000000</string>
+				<string>309.000000:126.000000</string>
 				<key>nibPath</key>
-				<string>/System/Applications/Photos.app/Contents/Library/Automator/Get Album by Name.action/Contents/Resources/Base.lproj/main.nib</string>
+				<string>/Applications/Photos.app/Contents/Library/Automator/Get Album by Name.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -194,7 +203,7 @@
 					</dict>
 				</array>
 				<key>ActionBundlePath</key>
-				<string>/System/Applications/Photos.app/Contents/Library/Automator/Export Media Items.action</string>
+				<string>/Applications/Photos.app/Contents/Library/Automator/Export Media Items.action</string>
 				<key>ActionName</key>
 				<string>Export Media Items</string>
 				<key>ActionParameters</key>
@@ -217,6 +226,29 @@
 					<false/>
 					<key>startingNumber</key>
 					<integer>1</integer>
+				</dict>
+				<key>ActionRuntimeParameters</key>
+				<dict>
+					<key>baseName</key>
+					<string>Nepal_Fieldwork</string>
+					<key>exportOptionVisibility</key>
+					<true/>
+					<key>minimumDigitIndicator</key>
+					<integer>1</integer>
+					<key>namingMethodIndicator</key>
+					<integer>1</integer>
+					<key>resultsMethodIndicator</key>
+					<integer>0</integer>
+					<key>separatorIndicator</key>
+					<integer>0</integer>
+					<key>shouldExportOriginals</key>
+					<false/>
+					<key>shouldRevealResults</key>
+					<false/>
+					<key>startingNumber</key>
+					<integer>1</integer>
+					<key>temporary items path</key>
+					<string>/var/folders/7q/zdd3th6s0bg1vxhsbqymlw400000gn/T/F887C0FB-AF46-4274-B935-2F60A082CBD9/1/com.apple.Photos.Export-Media-Items</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Photos.Export-Media-Items</string>
@@ -370,9 +402,9 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>270.500000:456.000000</string>
+				<string>309.000000:456.000000</string>
 				<key>nibPath</key>
-				<string>/System/Applications/Photos.app/Contents/Library/Automator/Export Media Items.action/Contents/Resources/Base.lproj/main.nib</string>
+				<string>/Applications/Photos.app/Contents/Library/Automator/Export Media Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -428,6 +460,15 @@
 					<false/>
 					<key>toDirectory</key>
 					<string>~/Desktop</string>
+				</dict>
+				<key>ActionRuntimeParameters</key>
+				<dict>
+					<key>replaceExisting</key>
+					<false/>
+					<key>temporary items path</key>
+					<string>/var/folders/7q/zdd3th6s0bg1vxhsbqymlw400000gn/T/F887C0FB-AF46-4274-B935-2F60A082CBD9/1/com.apple.Automator.MoveFiles</string>
+					<key>toDirectory</key>
+					<string>/Users/spiriwallace/Desktop</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.MoveFiles</string>
@@ -492,7 +533,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>270.500000:558.000000</string>
+				<string>309.000000:558.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Move Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -547,6 +588,13 @@
 					<key>appPath</key>
 					<string></string>
 				</dict>
+				<key>ActionRuntimeParameters</key>
+				<dict>
+					<key>appPath</key>
+					<string></string>
+					<key>temporary items path</key>
+					<string>/var/folders/7q/zdd3th6s0bg1vxhsbqymlw400000gn/T/F887C0FB-AF46-4274-B935-2F60A082CBD9/1/com.apple.Automator.OpenFinderItems</string>
+				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.OpenFinderItems</string>
 				<key>CFBundleVersion</key>
@@ -596,7 +644,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>270.500000:661.000000</string>
+				<string>309.000000:661.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Open Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -662,46 +710,46 @@
 					<string>com.apple.cocoa.path</string>
 					<key>predicate</key>
 					<data>
-					YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25Z
-					JGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGG
-					oF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290
-					gAGvEBYLDBMYICorLTQ4PT5BRUlOT1JYXGBi
-					VSRudWxs0w0ODxAREl8QF05TQ29tcG91bmRQ
-					cmVkaWNhdGVUeXBlXxAPTlNTdWJwcmVkaWNh
-					dGVzViRjbGFzcxABgAKAFdIUDxUXWk5TLm9i
-					amVjdHOhFoADgBTUDxkaGxwdHh9fEBFOU1Jp
-					Z2h0RXhwcmVzc2lvbl8QEE5TTGVmdEV4cHJl
-					c3Npb25fEBNOU1ByZWRpY2F0ZU9wZXJhdG9y
-					gBOADoAEgBHVISIjJA8lJicoKVlOU09wZXJh
-					bmReTlNTZWxlY3Rvck5hbWVfEBBOU0V4cHJl
-					c3Npb25UeXBlW05TQXJndW1lbnRzgAaABRAD
-					gAiADVx2YWx1ZUZvcktleTrSIw8QLIAH0i4v
-					MDFaJGNsYXNzbmFtZVgkY2xhc3Nlc18QEE5T
-					U2VsZkV4cHJlc3Npb26jMDIzXE5TRXhwcmVz
-					c2lvblhOU09iamVjdNIUDzU3oTaACYAM0w8j
-					OTo7PFlOU0tleVBhdGiACxAKgApaYW55Q29u
-					dGVudNIuLz9AXxAcTlNLZXlQYXRoU3BlY2lm
-					aWVyRXhwcmVzc2lvbqM/MjPSLi9CQ15OU011
-					dGFibGVBcnJheaNCRDNXTlNBcnJhedIuL0ZH
-					XxATTlNLZXlQYXRoRXhwcmVzc2lvbqRGSDIz
-					XxAUTlNGdW5jdGlvbkV4cHJlc3Npb27TSiMP
-					S0xNXxAPTlNDb25zdGFudFZhbHVlgA8QAIAQ
-					UNIuL1BRXxAZTlNDb25zdGFudFZhbHVlRXhw
-					cmVzc2lvbqNQMjPUD1NUVVZMJ1daTlNNb2Rp
-					ZmllcldOU0ZsYWdzXk5TT3BlcmF0b3JUeXBl
-					gBIQY9IuL1laXxAVTlNJblByZWRpY2F0ZU9w
-					ZXJhdG9yo1lbM18QE05TUHJlZGljYXRlT3Bl
-					cmF0b3LSLi9dXl8QFU5TQ29tcGFyaXNvblBy
-					ZWRpY2F0ZaNdXzNbTlNQcmVkaWNhdGXSLi9E
-					YaJEM9IuL2NkXxATTlNDb21wb3VuZFByZWRp
-					Y2F0ZaNjXzMACAARABoAJAApADIANwBJAEwA
-					UQBTAGwAcgB5AJMApQCsAK4AsACyALcAwgDE
-					AMYAyADRAOUA+AEOARABEgEUARYBIQErAToB
-					TQFZAVsBXQFfAWEBYwFwAXUBdwF8AYcBkAGj
-					AacBtAG9AcIBxAHGAcgBzwHZAdsB3QHfAeoB
-					7wIOAhICFwImAioCMgI3Ak0CUgJpAnACggKE
-					AoYCiAKJAo4CqgKuArcCwgLKAtkC2wLdAuIC
-					+gL+AxQDGQMxAzUDQQNGA0kDTgNkAAAAAAAA
+					YnBsaXN0MDDUAQIDBAUGYWJYJHZlcnNpb25Y
+					JG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGG
+					oK8QFgcIDxQcJicpMDQ5Oj1BRUpLTlRYXF5V
+					JG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFBy
+					ZWRpY2F0ZVR5cGVfEA9OU1N1YnByZWRpY2F0
+					ZXNWJGNsYXNzEAGAAoAV0hALERNaTlMub2Jq
+					ZWN0c6ESgAOAFNQLFRYXGBkaG18QEU5TUmln
+					aHRFeHByZXNzaW9uXxAQTlNMZWZ0RXhwcmVz
+					c2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KA
+					E4AOgASAEdUdHh8gCyEiIyQlWU5TT3BlcmFu
+					ZF5OU1NlbGVjdG9yTmFtZV8QEE5TRXhwcmVz
+					c2lvblR5cGVbTlNBcmd1bWVudHOABoAFEAOA
+					CIANXHZhbHVlRm9yS2V5OtIfCwwogAfSKiss
+					LVokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNT
+					ZWxmRXhwcmVzc2lvbqMsLi9cTlNFeHByZXNz
+					aW9uWE5TT2JqZWN00hALMTOhMoAJgAzTCx81
+					Njc4WU5TS2V5UGF0aIALEAqAClphbnlDb250
+					ZW500iorOzxfEBxOU0tleVBhdGhTcGVjaWZp
+					ZXJFeHByZXNzaW9uozsuL9IqKz4/Xk5TTXV0
+					YWJsZUFycmF5oz5AL1dOU0FycmF50iorQkNf
+					EBNOU0tleVBhdGhFeHByZXNzaW9upEJELi9f
+					EBROU0Z1bmN0aW9uRXhwcmVzc2lvbtNGHwtH
+					SElfEA9OU0NvbnN0YW50VmFsdWWADxAAgBBQ
+					0iorTE1fEBlOU0NvbnN0YW50VmFsdWVFeHBy
+					ZXNzaW9uo0wuL9QLT1BRUkgjU1pOU01vZGlm
+					aWVyV05TRmxhZ3NeTlNPcGVyYXRvclR5cGWA
+					EhBj0iorVVZfEBVOU0luUHJlZGljYXRlT3Bl
+					cmF0b3KjVVcvXxATTlNQcmVkaWNhdGVPcGVy
+					YXRvctIqK1laXxAVTlNDb21wYXJpc29uUHJl
+					ZGljYXRlo1lbL1tOU1ByZWRpY2F0ZdIqK0Bd
+					okAv0iorX2BfEBNOU0NvbXBvdW5kUHJlZGlj
+					YXRlo19bL18QD05TS2V5ZWRBcmNoaXZlctFj
+					ZFRyb290gAEACAARABoAIwAtADIANwBQAFYA
+					XQB3AIkAkACSAJQAlgCbAKYAqACqAKwAtQDJ
+					ANwA8gD0APYA+AD6AQUBDwEeATEBPQE/AUEB
+					QwFFAUcBVAFZAVsBYAFrAXQBhwGLAZgBoQGm
+					AagBqgGsAbMBvQG/AcEBwwHOAdMB8gH2AfsC
+					CgIOAhYCGwIxAjYCTQJUAmYCaAJqAmwCbQJy
+					Ao4CkgKbAqYCrgK9Ar8CwQLGAt4C4gL4Av0D
+					FQMZAyUDKgMtAzIDSANMA14DYQNmAAAAAAAA
 					AgEAAAAAAAAAZQAAAAAAAAAAAAAAAAAAA2g=
 					</data>
 					<key>searchPath</key>
@@ -779,7 +827,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>270.500000:836.000000</string>
+				<string>309.000000:836.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Find Finder Items 2.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -1258,7 +1306,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>270.500000:1023.000000</string>
+				<string>309.000000:1023.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Rename Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -1432,7 +1480,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>270.500000:1204.000000</string>
+				<string>309.000000:1204.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Text.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -1549,9 +1597,9 @@
 					<key>1</key>
 					<dict>
 						<key>default value</key>
-						<false/>
+						<string></string>
 						<key>name</key>
-						<string>CheckedForUserDefaultShell</string>
+						<string>source</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -1562,9 +1610,9 @@
 					<key>2</key>
 					<dict>
 						<key>default value</key>
-						<string></string>
+						<false/>
 						<key>name</key>
-						<string>source</string>
+						<string>CheckedForUserDefaultShell</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -1602,7 +1650,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>270.500000:1386.000000</string>
+				<string>309.000000:1386.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -1687,7 +1735,7 @@
 					<key>0</key>
 					<dict>
 						<key>default value</key>
-						<string>/System/Applications/Contacts.app</string>
+						<string>/Applications/Contacts.app</string>
 						<key>name</key>
 						<string>appPath</string>
 						<key>required</key>
@@ -1701,7 +1749,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>270.500000:1427.000000</string>
+				<string>309.000000:1427.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Launch Application.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -1711,56 +1759,56 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>449927C7-159D-486E-9650-1BA72446D6C8</key>
+		<key>164ECEDA-D6D5-4F43-87C1-87979E343271</key>
 		<dict>
 			<key>from</key>
 			<string>2E4BE5DE-86B8-416E-88E2-6E172D6D2562 - 2E4BE5DE-86B8-416E-88E2-6E172D6D2562</string>
 			<key>to</key>
 			<string>701F0EEA-B7EE-4D06-A771-3DEDE56B2E9D - 701F0EEA-B7EE-4D06-A771-3DEDE56B2E9D</string>
 		</dict>
-		<key>45991517-FE53-44FD-BB53-4F4ACA8EF8D3</key>
-		<dict>
-			<key>from</key>
-			<string>6E1FA127-8D5D-45A7-B58A-245144EC0104 - 6E1FA127-8D5D-45A7-B58A-245144EC0104</string>
-			<key>to</key>
-			<string>FB8B3B0C-6C6C-406C-B505-B8EC0926130F - FB8B3B0C-6C6C-406C-B505-B8EC0926130F</string>
-		</dict>
-		<key>45A4F15B-00F7-4145-8C5B-74E9EEEC2591</key>
-		<dict>
-			<key>from</key>
-			<string>14B504A9-22FC-467E-B26B-1CC4D57E32DF - 14B504A9-22FC-467E-B26B-1CC4D57E32DF</string>
-			<key>to</key>
-			<string>8E636658-B78D-4E9D-A178-2AF7A0E9677A - 8E636658-B78D-4E9D-A178-2AF7A0E9677A</string>
-		</dict>
-		<key>568AA25E-A9E8-4BDF-8D90-B0CBA8ECA50A</key>
+		<key>1A35E425-57B6-4518-A1DD-C0D1A63753DA</key>
 		<dict>
 			<key>from</key>
 			<string>701F0EEA-B7EE-4D06-A771-3DEDE56B2E9D - 701F0EEA-B7EE-4D06-A771-3DEDE56B2E9D</string>
 			<key>to</key>
 			<string>6E1FA127-8D5D-45A7-B58A-245144EC0104 - 6E1FA127-8D5D-45A7-B58A-245144EC0104</string>
 		</dict>
-		<key>569680F6-3FC9-4AC9-BDD2-DC9ADD5C3758</key>
+		<key>1D760FD2-9608-460A-96C0-55CBF95C4743</key>
+		<dict>
+			<key>from</key>
+			<string>6E1FA127-8D5D-45A7-B58A-245144EC0104 - 6E1FA127-8D5D-45A7-B58A-245144EC0104</string>
+			<key>to</key>
+			<string>FB8B3B0C-6C6C-406C-B505-B8EC0926130F - FB8B3B0C-6C6C-406C-B505-B8EC0926130F</string>
+		</dict>
+		<key>5EB2C82C-A6B1-451C-A379-0323B77CCFD9</key>
 		<dict>
 			<key>from</key>
 			<string>2098608F-6FD1-4BBB-B27E-74A4619A3A85 - 2098608F-6FD1-4BBB-B27E-74A4619A3A85</string>
 			<key>to</key>
 			<string>2E4BE5DE-86B8-416E-88E2-6E172D6D2562 - 2E4BE5DE-86B8-416E-88E2-6E172D6D2562</string>
 		</dict>
-		<key>69557FF9-89DA-4949-91FC-FE65D1823BBA</key>
+		<key>7685FD59-ACD5-4C67-AF11-AD5B9FE6AB30</key>
 		<dict>
 			<key>from</key>
 			<string>FB8B3B0C-6C6C-406C-B505-B8EC0926130F - FB8B3B0C-6C6C-406C-B505-B8EC0926130F</string>
 			<key>to</key>
 			<string>14B504A9-22FC-467E-B26B-1CC4D57E32DF - 14B504A9-22FC-467E-B26B-1CC4D57E32DF</string>
 		</dict>
-		<key>A89BD9FD-0DA9-43AD-82E3-B00C63A414A6</key>
+		<key>88D38B04-1BE1-40B5-8662-FA8A853B3B88</key>
+		<dict>
+			<key>from</key>
+			<string>14B504A9-22FC-467E-B26B-1CC4D57E32DF - 14B504A9-22FC-467E-B26B-1CC4D57E32DF</string>
+			<key>to</key>
+			<string>8E636658-B78D-4E9D-A178-2AF7A0E9677A - 8E636658-B78D-4E9D-A178-2AF7A0E9677A</string>
+		</dict>
+		<key>9782AD29-85C9-4165-9DA2-C0B80EE64760</key>
 		<dict>
 			<key>from</key>
 			<string>8E636658-B78D-4E9D-A178-2AF7A0E9677A - 8E636658-B78D-4E9D-A178-2AF7A0E9677A</string>
 			<key>to</key>
 			<string>3F875EC9-034C-4E2C-92FE-3900F6391CFA - 3F875EC9-034C-4E2C-92FE-3900F6391CFA</string>
 		</dict>
-		<key>C13331B6-6B17-44EA-A3EA-6DFEC705A055</key>
+		<key>9F93C9A2-C3E8-4EF0-B6BE-2D6B4F670C71</key>
 		<dict>
 			<key>from</key>
 			<string>CB4CDBC9-27D9-4EAB-997E-C0D7FFC0DBA6 - CB4CDBC9-27D9-4EAB-997E-C0D7FFC0DBA6</string>
