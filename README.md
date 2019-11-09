@@ -15,7 +15,7 @@
 # Background:
 
 
-This repository contains the Proof of Concept (POC) Technology Deployment for FOAR705, 2019. This POC contains a Automator workflow to export photos from Mac's default photo application into the photo application Tropy, using ExifTool to embed additional metadata into the photos. Duplicati then securely backs the work on a scheduled timer. This aims to demonstrate a more streamlined process for qualitative researchers in the field who want their photographic data to be more organised, detailed, managed and stored efficiently. 
+This repository contains the Proof of Concept (POC) Technology Deployment for FOAR705, 2019. This POC contains a Automator workflow to export photos from Mac's default photo application into the research photo application Tropy, using ExifTool to embed additional metadata into the photos. Duplicati then securely backs up the work on a scheduled timer. This aims to demonstrate a more streamlined process for qualitative researchers in the field who want their photographic data to be more organised, detailed, managed and stored efficiently. 
 
 # Outline:
 
@@ -43,7 +43,8 @@ The application Tropy needs to be downloaded from [Tropy.org](https://tropy.org/
 
 The software program ExifTool needs to be downloaded from [ExifTool](https://www.sno.phy.queensu.ca/~phil/exiftool/ExifTool-11.75.dmg)
 
-The application Duplicati needs to be downloaded from [Duplicati](https://updates.duplicati.com/beta/duplicati-2.0.4.23_beta_2019-07-14.dmg)
+The application Duplicati can be downloaded from [Duplicati](https://updates.duplicati.com/beta/duplicati-2.0.4.23_beta_2019-07-14.dmg)
+
 
 The application Github Desktop needs to be downloaded from [Github](https://central.github.com/deployments/desktop/desktop/latest/darwin)
 
@@ -51,18 +52,22 @@ The application Automator can be viewed in more detail in the [Automator User Gu
 
 The application Photos can be viewed in more detail in the [Mac Photos User Guide](https://support.apple.com/en-au/HT206186)
 
-Duplicati and Github Desktop require user accounts to access these tools. Sign in or create an account to continue with this POC demonstration. 
+* Note: Duplicati is not involved in this installation and test, as its has been demonstrated in an FOAOR705 consultation. To use Duplicati, download from the link above and schedule a daily backup on the projects location after tests have been run.
+
+* Note: Github Desktop requires a user account to access these tools. Sign in or create an account to continue with this POC demonstration. 
+
+
 
 # Installation:
 
 
 * Ensure you have met the requirements in the section above before proceeding.
-* Download and install Tropy, ExifTool, Duplicati and Github Desktop from the links above.
+* Download and install Tropy, ExifTool and Github Desktop from the links above.
 * Clone this repository to your computer using Github Desktop. 
 * It is important that the file Exiftool_Script is in folder ~/Documents/GitHub/SophieWallace_POC_Contents/
-* Create a folder named "Export" in default Mac Photos application.
+* Create an album named "Export" in default Mac Photos application.
 * Move the images from the repository into the newly created "Export" folder in Mac Photos application.
-* Create daily scheduled backup in Duplicati for Tropy project and POC_Contents folder.
+
 
 
 # Testing:
@@ -104,7 +109,7 @@ This POC technology deployment has specific limitations with Automator and Tropy
 * Utilising key commands such as "command A" crashed the application.
 * The 'Watch Me Do' action responds slowly.
 * Actions such as renaming folders, work haphazardly.
-* Actions are extremely limited
+* Actions are extremely limited.
 * Actions focus predominantely on Mac applications.
 * Only available on macOS Catalina.
 
