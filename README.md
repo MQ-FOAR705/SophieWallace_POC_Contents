@@ -20,7 +20,7 @@ This repository contains the Proof of Concept (POC) Technology Deployment for FO
 # Outline:
 
 
-This package includes the Automation workflow, photos for testing, an exiftool script, a license and this README file. The following tools are implemented in this demonstration:
+This repository includes the Automation workflow, photos for testing, an exiftool script, a license and this README file. The following tools are implemented in this demonstration:
 
 * **Automator** is an exclusive Mac application that programs a workflow by automating repetitive tasks using a drag and drop interface.
 
