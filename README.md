@@ -20,17 +20,17 @@ This repository contains the Proof of Concept (POC) Technology Deployment for FO
 # Outline:
 
 
-This package includes the Automation workflow, photos for testing, an exiftool script, a Tropy project file, a license and this README file. The following tools are implemented in this demonstration:
+This package includes the Automation workflow, photos for testing, an exiftool script, a license and this README file. The following tools are implemented in this demonstration:
 
-Automator is an exclusive Mac application that programs a workflow by automating repetitive tasks using a drag and drop interface.
+* **Automator** is an exclusive Mac application that programs a workflow by automating repetitive tasks using a drag and drop interface.
 
-Tropy is an open-source tool software program for research photo management.
+* **Tropy** is an open-source tool software program for research photo management.
 
-Exiftool is an open-source software program for reading, writing, and manipulating image, audio, video, and PDF metadata.
+* **Exiftool** is an open-source software program for reading, writing, and manipulating image, audio, video, and PDF metadata.
 
-Duplicati is an open-source software program thats stores securly encrypted backuips on cloud storage services.
+* **Duplicati** is an open-source software program thats stores securely encrypted backups on cloud storage services.
 
-Github Desktop is an open-source software program that seamlessly contributese to projefcts on Github and Github Enterprise. 
+* **Github Desktop** is an open-source software program that seamlessly contributes to projects on Github and Github Enterprise. 
 
 # Requirements:
 This can only be run on a macOS Catalina. It cannot be run on Windows.
