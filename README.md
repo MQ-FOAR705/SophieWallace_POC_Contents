@@ -15,7 +15,7 @@
 # Background:
 
 
-This repository contains the Proof of Concept (POC) Technology Deployment for FOAR705, 2019. This POC contains a Automator workflow to export photos from Mac's default photo application into the research photo application Tropy, using ExifTool to embed additional metadata into the photos. Duplicati then securely backs up the work on a scheduled timer. This aims to demonstrate a more streamlined process for qualitative researchers in the field who want their photographic data to be more organised, detailed, managed and stored efficiently. 
+This repository contains the Proof of Concept (POC) Technology Deployment for FOAR705, 2019. This POC contains an Automator workflow to export photos from Mac's default photo application into the research photo application Tropy, using ExifTool to embed additional metadata into the photos. Duplicati then securely backs up the work on a scheduled timer. This aims to demonstrate a more streamlined process for qualitative researchers in the field who want their photographic data to be more organised, detailed, managed and stored efficiently. 
 
 # Outline:
 
@@ -24,7 +24,7 @@ This repository includes the Automation workflow, photos for testing, an exiftoo
 
 * **Automator** is an exclusive Mac application that programs a workflow by automating repetitive tasks using a drag and drop interface.
 
-* **Tropy** is an open-source tool software program for research photo management.
+* **Tropy** is an open-source software program for research photo management.
 
 * **Exiftool** is an open-source software program for reading, writing, and manipulating image, audio, video, and PDF metadata.
 
@@ -33,7 +33,7 @@ This repository includes the Automation workflow, photos for testing, an exiftoo
 * **Github Desktop** is an open-source software program that seamlessly contributes to projects on Github and Github Enterprise. 
 
 # Requirements:
-This can only be run on a macOS Catalina. It cannot be run on Windows.
+This should only be run on a macOS Catalina, prior versions of macOS may not work. It cannot be run on Windows.
 
 This demonstration needs the application Automator. This is a default application in macOS Catalina and is required.
 
@@ -63,18 +63,18 @@ The application Photos can be viewed in more detail in the [Mac Photos User Guid
 
 * Ensure you have met the requirements in the section above before proceeding.
 * Download and install Tropy, ExifTool and Github Desktop from the links above.
-* Clone this repository to your computer using Github Desktop. 
+* Clone this repository (using [this link](https://github.com/MQ-FOAR705/SophieWallace_POC_Contents.git)) to your computer via Github Desktop. 
 * It is important that the file Exiftool_Script is in folder ~/Documents/GitHub/SophieWallace_POC_Contents/
 * Create an album named "Export" in default Mac Photos application.
-* Move the images from the repository into the newly created "Export" folder in Mac Photos application.
+* Move the test images from this repository into the newly created "Export" folder in Mac Photos application.
 
 
 
 # Testing:
 
 
-* Open POC_Automation workflow.
-* Run POC_Automation workflow.
+* Open POC_Workflow_DEMO in the application Automator.
+* Once POC_Workflow_DEMO is open, select run in the top right corner of Automator.
 * Prompt for writing location should appear.
 * Write location metadata for the photos, in this case "Changu Narayan".
 * Tropy interface appears and tropy_input images appear in finder window.
