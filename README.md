@@ -63,7 +63,7 @@ The application Photos can be viewed in more detail in the [Mac Photos User Guid
 
 * Ensure you have met the requirements in the section above before proceeding.
 * Download and install Tropy, ExifTool and Github Desktop from the links above.
-* Clone this repository ([using this link](https://github.com/MQ-FOAR705/SophieWallace_POC_Contents.git)) to your computer via Github Desktop. 
+* Clone this repository to your computer via Github Desktop. 
 * It is important that the file Exiftool_Script is in folder ~/Documents/GitHub/SophieWallace_POC_Contents/
 * Create an album named "Export" in default Mac Photos application.
 * Move the test images from this repository into the newly created "Export" folder in Mac Photos application.
